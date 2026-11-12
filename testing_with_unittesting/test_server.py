@@ -1,8 +1,8 @@
 import unittest
-import server
+import unittesting.server as server
 import requests
 from fastapi.testclient import TestClient
-from server import app
+from unittesting.server import app
 # class TestServer(unittest.TestCase):
 #     def setUp(self):
 #         print("before each test case")
